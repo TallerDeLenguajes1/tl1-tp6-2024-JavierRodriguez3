@@ -3,7 +3,7 @@ Console.WriteLine("Hello, World!");
 
 
 //Ejercicio 1
-int num = 0;
+/*int num = 0;
 string cad = Console.ReadLine();
 bool result = int.TryParse(cad, out num);
 
@@ -25,4 +25,4 @@ while (num > 0)
         acumulador = acumulador * 10 + aux;
 }
 
-Console.WriteLine($"El numero ingresado es: {aux2} y el numero invertido es: {acumulador}"); 
+Console.WriteLine($"El numero ingresado es: {aux2} y el numero invertido es: {acumulador}"); */
