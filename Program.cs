@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Hello, World!");
 
 
 //Ejercicio 1
@@ -25,7 +25,7 @@ while (num > 0)
         acumulador = acumulador * 10 + aux;
 }
 
-Console.WriteLine($"El numero ingresado es: {aux2} y el numero invertido es: {acumulador}"); */
+Console.WriteLine($"El numero ingresado es: {aux2} y el numero invertido es: {acumulador}"); 
 
 //Ejercicio 2 
 
@@ -115,4 +115,64 @@ do {
 
     Console.WriteLine("Ingresar 1 si desea seguir operando, ingresar 0 si ya no desea operar");
     opcion = Convert.ToInt32(Console.ReadLine());
-}while(opcion == 1); 
+}while(opcion == 1); */
+
+// Ejercicio 4
+
+/*Console.WriteLine("Ingresar el texto");
+
+string texto = Console.ReadLine();
+
+int longitud = texto.Length;
+
+Console.WriteLine($"El texto es {texto} y tiene una longitud de {longitud}");
+
+Console.WriteLine("Ingresar el segundo texto");
+
+string texto2 = Console.ReadLine();
+
+string conca = string.Concat(texto, " ", texto2);
+
+Console.WriteLine("La concatenacion es: "+ conca);
+
+Console.WriteLine("Ingresar primer numero");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ingresar segundo numero");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Se suman los numeros {num1.ToString()} + {num1.ToString()}  " + (num1 + num2).ToString());
+
+
+Console.WriteLine("Ingresar el texto para el foreach");
+
+string texto3 = Console.ReadLine();
+string[] palabras = texto3.Split(' ');
+
+foreach (string buscar in palabras)
+{
+    Console.WriteLine("Palabra encontrada: " + buscar);
+}
+
+Console.WriteLine("Ingresar el texto para buscar la ocurrencia");
+
+string texto4 = Console.ReadLine();
+string buscada = "hola";
+int ocurrencia = 0;
+string[] palabras2 = texto4.Split(' ');
+
+foreach (string buscar in palabras2)
+{
+    if (buscar == buscada){
+        ocurrencia++;
+    }
+}
+
+Console.WriteLine($"La palabra buscada fue {buscada} y su ocurrencua fue de {ocurrencia}"); 
+
+Console.WriteLine("Ingresar cadena a convertir");
+
+string cadena = Console.ReadLine();
+
+Console.WriteLine($"La cadena original -{cadena} La cadena en minusculas -{cadena.ToLower()}- La cadena en mayusculas -{cadena.ToUpper()}"); */
+
+//El split lo use en el foreach, funciona para separar cadenas de texto en arrays, las separaciones se determinan segun el caracter que nosotros decidamos.
+
